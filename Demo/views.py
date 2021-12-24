@@ -33,14 +33,6 @@ class PersonListView(APIView):
         return Response(status=status.HTTP_204_NO_CONTENT)   
 
 
-    # def put(self,request):
-    # 	for item in request.data:
-    		
-    # 		serializer = PersonSerializer(Person, data=request.data)
-	   #      if serializer.is_valid():
-	   #          serializer.save()
-	   #          return Response(serializer.data)
-
 
          
 
